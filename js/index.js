@@ -20,10 +20,10 @@ if (hacker1.length < hacker2.length){
 
 // Iteration 3: Loops
 
+let driver = "";
 for (let i = 0; i < hacker1.length; i++) {
-    console.log(hacker1.toLocaleUpperCase);
-    
-}
+    driver += hacker1[i].toUpperCase() + " ";    
+}console.log(driver.trim())
 
 
 
